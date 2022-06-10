@@ -1,6 +1,6 @@
 # Portfolio
 # Musroom dataset project
-The dataset provided by The Audobon Society Field Guide to North American Mushroom (1981) contains descriptions of hypothetical samples corresponding to 23 species of mushrooms of the Agaricus and Lepiota families. Each species is classified as edible or poisonous.
+The dataset provided by The Audobon Society Field Guide to North American Mushroom (1981) contains descriptions of hypothetical samples corresponding to 23 species of mushrooms of the Agaricus and Lepiota families. Each species is classified as edible or poisonous. Dataset available at: https://www.kaggle.com/datasets/uciml/mushroom-classification
 
 ![image](https://user-images.githubusercontent.com/77253306/172767841-adb25971-b31e-42a4-9172-9c97ee399acb.png)
 
