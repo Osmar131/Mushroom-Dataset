@@ -22,13 +22,19 @@ The metrics obtained show good performance with the Random Forest trained model.
 
 ![tif44](https://user-images.githubusercontent.com/77253306/172771222-aa361a5b-55df-4de0-aa98-fd68bf008118.png)
 
+Evolution of out-of-bag-error vs number of trees shows that the error decreases as different amounts of trees are tested, it also shows that the optimal number of trees is 21.
 
+![tif45](https://user-images.githubusercontent.com/77253306/172986198-fd946694-dd0a-4757-ab66-7675653f191b.png)
 
-- 👋 Hi, I’m @Osmar131
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+Evolution of cv-error vs number of trees shows the error decrease as different amounts of trees are tested and with a kfold of 5, it also shows that the optimal number of trees is 11.
+
+![tif46](https://user-images.githubusercontent.com/77253306/172986789-6897a43a-20dd-4746-87d5-d73747b5650b.png)
+
+# Conclusiones
+A decision tree tends to get over-trained, so one way to avoid this is through ensembles of prediction models. Random Forest builds several trees at once reducing this overtraining by averaging the results and also taking different samples from a training set.
+
+It is also possible to reduce this over-training by adjusting various additional parameters such as the selection of certain attributes, type of gain measurement and the type of data, whether categorical or numeric.
+
 
 <!---
 Osmar131/Osmar131 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
